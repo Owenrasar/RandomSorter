@@ -1,0 +1,50 @@
+body {
+  background-color: white;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  transition: background-color 0.5s ease;
+  transition: color 0.5s ease;
+  color: black;
+}
+#main{
+    background-color: rgb(115, 115, 115,0.5);
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+
+img {
+    width: 20%;
+    height: 20%;
+    border: 5px solid black;
+    object-fit: contain;
+}
+
+button{
+    transition: color 0.5s ease;
+    background-color: rgba(243, 243, 243, 0.4);
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: rgba(243, 243, 243,0.6);
+    margin-top: 10px;
+}
+
+p{
+    text-align: left;
+    margin-left: 5%;
+}
+
+li{
+    margin-left: 10%;
+    text-align: left;
+}
+
+#log-container {
+    height: 200px;
+    overflow-y: auto;
+}
